@@ -1,0 +1,40 @@
+.textContainer{
+    width: 100%;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+    margin: 0 auto;
+}
+
+.pageTitle{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.pageContainer{
+    padding: 10% 10%;
+    margin: 40px auto 0;
+
+}
+
+.aboutText{
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 30px;
+    font-family: Georgia, serif;
+}
+
+.linkText{
+    font-size: 16px;
+    color: lightblue;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 60px;
+    font-family: Georgia, serif;
+}

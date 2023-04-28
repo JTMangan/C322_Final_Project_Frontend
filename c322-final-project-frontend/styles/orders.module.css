@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.tableContainer{
+    padding: 5% 2%;
+    margin: auto 0;
+}
+
+.orderContainer{
+    width: 30%;
+    background-color: #F3E779;
+    padding: 2%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    float: left;
+}
+
+.tableTitle{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    margin-bottom: 2%;
+}
+
+.personTitle{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    margin-bottom: 2%;
+}
+
+.foodItem{
+    color: black;
+    font-size: 15px;
+    font-weight: regular;
+    margin-bottom: 2%;
+}

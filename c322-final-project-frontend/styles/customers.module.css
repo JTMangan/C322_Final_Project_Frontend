@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.tableContainer{
+    padding: 5% 2%;
+    margin: auto 0;
+}
+
+.orderContainer{
+    width: 30%;
+    background-color: #F3E779;
+    padding: 2%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    float: left;
+}
+
+.tableTitle{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    margin-bottom: 2%;
+}
+
+.customerInfo{
+    color: black;
+    font-size: 15px;
+    font-weight: regular;
+    margin-bottom: 2%;
+}
+
+.makeOrder{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+    background: rgba(63, 114, 76, 0.7);
+}
+
+.table thead {
+    background-color: beige;
+}
+
+.table thead tr th {
+    padding: 12px;
+    vertical-align: top;
+    letter-spacing: 0.35px;
+}
+
+.table tbody tr td{
+    letter-spacing: 0.35px;
+    padding: 8px;
+    text-align: center;
+    background-color: light-grey;
+}
+
+@media (max-width: 768px) {
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td {
+        display: block;
+        width:auto
+    }
+    .table tr{
+        border: 1px solid green;
+        margin-bottom: 15px;
+    }
+
+}
