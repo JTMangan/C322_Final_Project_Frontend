@@ -1,4 +1,4 @@
-let hostname = "http://localhost:8082";
+let hostname = "https://c322finalprojectbackend-production.up.railway.app/";
 
 let findAllOrders = () => {
  return fetch(hostname + '/orders')
